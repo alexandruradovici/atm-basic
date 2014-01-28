@@ -1,0 +1,9 @@
+VAR #n, #limit
+
+#n=1
+#limit = 10000
+WHILE #n <= #limit DO
+	PRINT #n
+	#n = #n+1
+	#limit = #limit / 2
+ENDWHILE

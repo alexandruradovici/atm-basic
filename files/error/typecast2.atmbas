@@ -1,0 +1,7 @@
+VAR @label, #number
+
+SUB mix #nr, @l
+	PRINT @l, " ", #nr
+ENDSUB
+
+CALL mix @label, #number

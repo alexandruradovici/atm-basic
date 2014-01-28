@@ -1,0 +1,27 @@
+
+VAR #nr
+
+SUB prim #n
+	VAR #i, #divizori
+	#divizori = 0
+	IF #n <> 0 AND #n <> 1 THEN
+		FOR #i FROM 2 TO #n/2 STEP 1 DO
+			IF #n MOD #i = 0 THEN
+				#divizori=#divizori+1
+			ENDIF
+		ENDFOR
+	ELSE
+		#divizori = 1
+	ENDIF
+	IF #divizori = 0 THEN
+		PRINT #n, " este prim"
+	ELSE
+		PRINT #n, " nu este prim"
+	ENDIF
+ENDSUB
+
+FOR #nr FROM 1 TO 10 STEP 1 DO
+	CALL prim #nr
+ENDFOR
+
+

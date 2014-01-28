@@ -1,0 +1,3 @@
+VAR @label, #number
+@label=#number
+#number=@label

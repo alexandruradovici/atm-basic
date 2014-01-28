@@ -1,0 +1,8 @@
+VAR @l
+VAR #n
+
+VAR %n2
+
+%n2=10
+
+@l=#n/%n2 MOD "text"

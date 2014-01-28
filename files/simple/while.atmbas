@@ -1,0 +1,7 @@
+VAR #n
+
+#n=1
+WHILE #n <= 10 DO
+	PRINT #n
+	#n = #n+1
+ENDWHILE

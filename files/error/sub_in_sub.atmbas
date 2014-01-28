@@ -1,0 +1,7 @@
+
+SUB f1 #n1
+	PRINT #n1
+	SUB f2 #n2
+		PRINT #n2
+	ENDSUB
+ENDSUB

@@ -1,0 +1,8 @@
+VAR @l
+VAR #n
+
+VAR %n2
+
+%n2=10
+
+%n2=#n/%n2+@l

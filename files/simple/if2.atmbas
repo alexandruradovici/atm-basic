@@ -1,0 +1,11 @@
+VAR #n
+
+#n = 0
+
+IF #n > 0 THEN
+	PRINT #n, " is positive"
+ELSEIF #n < 0 THEN
+	PRINT #n, " is negative"
+ELSE
+	PRINT #n, " is equal to 0"
+ENDIF
