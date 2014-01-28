@@ -1,11 +1,8 @@
 VAR #dayOfWeek
 VAR @nameOfDay
 VAR @search
-
 #dayOfWeek = 1
 @search = "It's Weekend"
-
-
 WHILE #dayOfWeek > 10 OR NOT @nameOfDay = @search DO
 	IF #dayOfWeek = 1 THEN
 		@nameOfDay = "Mondey"

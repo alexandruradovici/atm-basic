@@ -1,9 +1,6 @@
 VAR #dayOfWeek
 VAR @nameOfDay
-
 #dayOfWeek = 1
-
-
 WHILE #dayOfWeek <= 7 AND @nameOfDay <> "It's Weekend" DO
 	IF #dayOfWeek = 1 THEN
 		@nameOfDay = "Mondey"

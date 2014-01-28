@@ -1,5 +1,4 @@
 VAR #n
-
 FOR #n FROM 1 TO 10 STEP 2 DO
 	PRINT #n
 ENDFOR

@@ -1,5 +1,4 @@
 VAR #n
-
 IF #n > 0 THEN
 	PRINT #n, " is positive"
 ELSE

@@ -1,5 +1,4 @@
 VAR #n, #limit
-
 #n=1
 #limit = 10000
 WHILE #n <= #limit DO

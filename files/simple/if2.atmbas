@@ -1,7 +1,5 @@
 VAR #n
-
 #n = 0
-
 IF #n > 0 THEN
 	PRINT #n, " is positive"
 ELSEIF #n < 0 THEN

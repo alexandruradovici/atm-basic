@@ -1,5 +1,4 @@
 VAR #n
-
 #n=10
 WHILE #n >= 1 DO
 	PRINT #n
