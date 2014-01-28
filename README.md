@@ -32,11 +32,11 @@ Codurile de eroare
     var ERROR_DIVISION_BY_0=7;
     var ERROR_WRONG_NUMBER_PARAMETERS=8;
 
-La parser, va rog sa puneti try catch si sa intoarceti ERROR_PARSER, altfel parsre-ul intarce un alt code de eroare.
+La parser, va rog sa puneti try catch si sa intoarceti ERROR_PARSER, altfel parsre-ul intarce un alt code de eroare. De asemenea este util sa afisati exceptia aruncata de parser pentru a afisa eroarea.
 
     try
     {
-    	var basic = atm_basic_parser.parse (filedata);
+    	basic = atm_basic_parser.parse (filedata);
     }
     catch (e)
     {
