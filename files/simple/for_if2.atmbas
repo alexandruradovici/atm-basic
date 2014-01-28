@@ -1,0 +1,20 @@
+VAR #dayOfWeek
+
+#dayOfWeek = 0
+
+
+FOR #dayOfWeek FROM 1 TO 7 STEP 1 DO
+	IF #dayOfWeek = 1 THEN
+		PRINT "Mondey"
+	ELSEIF #dayOfWeek = 2 THEN
+		PRINT "Tuesday"
+	ELSEIF #dayOfWeek = 3 THEN
+		PRINT "Wednesday"
+	ELSEIF #dayOfWeek = 4 THEN
+		PRINT "Thursday"
+	ELSEIF #dayOfWeek = 5 THEN
+		PRINT "Friday"
+	ELSE
+		PRINT "It's Weekend"
+	ENDIF
+ENDFOR

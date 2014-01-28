@@ -1,0 +1,25 @@
+VAR #dayOfWeek
+VAR @nameOfDay
+VAR @search
+
+#dayOfWeek = 1
+@search = "It's Weekend"
+
+
+WHILE #dayOfWeek > 10 OR NOT @nameOfDay = @search DO
+	IF #dayOfWeek = 1 THEN
+		@nameOfDay = "Mondey"
+	ELSEIF #dayOfWeek = 2 THEN
+		@nameOfDay = "Tuesday"
+	ELSEIF #dayOfWeek = 3 THEN
+		@nameOfDay = "Wednesday"
+	ELSEIF #dayOfWeek = 4 THEN
+		@nameOfDay = "Thursday"
+	ELSEIF #dayOfWeek = 5 THEN
+		@nameOfDay = "Friday"
+	ELSE
+		@nameOfDay = "It's Weekend"
+	ENDIF
+	PRINT @nameOfDay
+	#dayOfWeek=#dayOfWeek+1
+ENDWHILE

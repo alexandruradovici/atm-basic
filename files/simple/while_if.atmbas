@@ -1,0 +1,23 @@
+VAR #dayOfWeek
+VAR @nameOfDay
+
+#dayOfWeek = 1
+
+
+WHILE #dayOfWeek <= 7 AND @nameOfDay <> "It's Weekend" DO
+	IF #dayOfWeek = 1 THEN
+		@nameOfDay = "Mondey"
+	ELSEIF #dayOfWeek = 2 THEN
+		@nameOfDay = "Tuesday"
+	ELSEIF #dayOfWeek = 3 THEN
+		@nameOfDay = "Wednesday"
+	ELSEIF #dayOfWeek = 4 THEN
+		@nameOfDay = "Thursday"
+	ELSEIF #dayOfWeek = 5 THEN
+		@nameOfDay = "Friday"
+	ELSE
+		@nameOfDay = "It's Weekend"
+	ENDIF
+	PRINT @nameOfDay
+	#dayOfWeek=#dayOfWeek+1
+ENDWHILE
